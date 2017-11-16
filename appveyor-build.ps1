@@ -12,5 +12,3 @@ $Env:Path
 
 "`n== Building the artifact locally =="
 & "mvn" "-B" "install" 2> $null
-
-exit $LASTEXITCODE
